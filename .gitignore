@@ -1,0 +1,21 @@
+# Python cache
+__pycache__/
+*.pyc
+
+# Virtual environment
+venv/
+
+# Model
+*.pkl
+
+# Dataset lon
+data/tranco.csv
+
+# VSCode
+.vscode/
+
+# Log
+*.log
+
+# Linux / Mac
+.DS_Store

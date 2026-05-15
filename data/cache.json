@@ -1,0 +1,100 @@
+{
+    "https://skinsmonkey.com/?referrer=af_tranid%3D0chiUPK5d8VqD1hn_7vgWA%26pid%3D1": {
+        "url": "https://skinsmonkey.com/?referrer=af_tranid%3D0chiUPK5d8VqD1hn_7vgWA%26pid%3D1",
+        "is_phishing": true,
+        "confidence": 0.9991902709007263,
+        "source": "ml",
+        "threshold": 0.55,
+        "reason": [
+            "URL too long"
+        ]
+    },
+    "https://skinsmonkey.com/": {
+        "url": "https://skinsmonkey.com/",
+        "is_phishing": true,
+        "confidence": 1.0,
+        "source": "domain_reputation",
+        "threshold": 0.55,
+        "reason": [
+            "Known phishing domain"
+        ]
+    },
+    "https://www.youtube.com/": {
+        "url": "https://www.youtube.com/",
+        "is_phishing": false,
+        "confidence": 0.0,
+        "source": "rule",
+        "threshold": 0.55,
+        "reason": [
+            "Trusted domain"
+        ]
+    },
+    "http://127.0.0.1:8000/stats": {
+        "url": "http://127.0.0.1:8000/stats",
+        "is_phishing": false,
+        "confidence": 0.0,
+        "source": "rule",
+        "threshold": 0.55,
+        "reason": [
+            "Trusted domain"
+        ]
+    },
+    "https://skinsmonkey.com/trade": {
+        "url": "https://skinsmonkey.com/trade",
+        "is_phishing": true,
+        "confidence": 1.0,
+        "source": "domain_reputation",
+        "threshold": 0.55,
+        "reason": [
+            "Known phishing domain"
+        ]
+    },
+    "http://paypal-login-secure.com/": {
+        "url": "http://paypal-login-secure.com/",
+        "is_phishing": true,
+        "confidence": 1.0,
+        "source": "rule",
+        "threshold": 0.55,
+        "reason": [
+            "Rule engine detected phishing"
+        ]
+    },
+    "http://g00gle-login.xyz/": {
+        "url": "http://g00gle-login.xyz/",
+        "is_phishing": true,
+        "confidence": 1.0,
+        "source": "rule",
+        "threshold": 0.55,
+        "reason": [
+            "Rule engine detected phishing"
+        ]
+    },
+    "https://skinsmonkey.com/home": {
+        "url": "https://skinsmonkey.com/home",
+        "is_phishing": true,
+        "confidence": 1.0,
+        "source": "domain_reputation",
+        "threshold": 0.55,
+        "reason": [
+            "Known phishing domain"
+        ]
+    },
+    "chrome://newtab/": {
+        "url": "chrome://newtab/",
+        "is_phishing": false,
+        "confidence": 0.0,
+        "source": "rule",
+        "threshold": 0.55,
+        "reason": [
+            "Trusted domain"
+        ]
+    },
+    "https://itcommunication.co.za/outlook3/": {
+        "url": "https://itcommunication.co.za/outlook3/",
+        "is_phishing": true,
+        "confidence": 0.9500863552093506,
+        "source": "ml",
+        "threshold": 0.55,
+        "reason": []
+    }
+}

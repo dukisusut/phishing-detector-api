@@ -1,0 +1,20 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: phishing-api
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: phishing-api
+  template:
+    metadata:
+      labels:
+        app: phishing-api
+    spec:
+      containers:
+      - name: phishing-api
+        image: phishing-api
+        imagePullPolicy: Never
+        ports:
+        - containerPort: 8000
